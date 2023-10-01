@@ -1,6 +1,8 @@
 # Konstantin Sikorskii
 > junior frontend-developer
 
+![my foto](myfoto.jpg)
+
 ## CONTACT
 - **e-mail:** apelsin1987@gmail.com
 - **phone:** +34641173185
