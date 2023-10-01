@@ -36,8 +36,8 @@ function multiply(a, b){
 companies: *Gazprom Mezhregiongaz, Audit NT, OCS*
 > 2010 - Present
 
-### Projects:
-- [CV](https://github.com/Apelsin1987/rsschool-cv)
+### *Projects:*
+- [CV in rsschool](https://github.com/Apelsin1987/rsschool-cv)
 
 ## EDUCATION
 ### Specialist, Engineer  
