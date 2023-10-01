@@ -38,7 +38,7 @@ companies: *Gazprom Mezhregiongaz, Audit NT, OCS*
 
 ## EDUCATION
 ### Specialist, Engineer  
-**Taganrog Technological Institute of the Southern Federal University, *Taganrog, Russia***
+**Taganrog Technological Institute of the Southern Federal University**
 > 2005 - 2010
 
 ### 1C Professional
