@@ -1,5 +1,5 @@
 # Konstantin Sikorskii
-junior frontend-developer
+> junior frontend-developer
 
 ## CONTACT
 - **e-mail:** apelsin1987@gmail.com
@@ -34,16 +34,16 @@ function multiply(a, b){
 ## EXPERIENCE
 ### 1C Developer
 companies: *Gazprom Mezhregiongaz, Audit NT, OCS*
-2010 - Present
+> 2010 - Present
 
 ## EDUCATION
 ### Taganrog Technological Institute of the Southern Federal University, *Taganrog, Russia*
 **specialist, engineer**
-2005 - 2010
+> 2005 - 2010
 
 ### 1C Professional
 **First BIT**
-2005 - 2010
+> 2005 - 2010
 
 ## LANGUAGES
 * russian
