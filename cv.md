@@ -3,7 +3,7 @@
 
 ![my foto](myfoto.jpg)
 
-## CONTACT
+## CONTACTS
 - **e-mail:** apelsin1987@gmail.com
 - **phone:** +34641173185
 - **telegram, whatsapp:** +79522869335
