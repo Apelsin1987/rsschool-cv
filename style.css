@@ -1,50 +1,154 @@
-* {
-    box-sizing: border-box;
+* /* Универсальный селектор (звездочка) подразумевает все элементы встретившиеся на странице */
+{
+    box-sizing: border-box; /* Границы и внутренние отступы будут учитываться в значениях, которые вы указываете в ширине и высоте элемента */
 }
 
 html {
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth; /* Плавная прокрутка */
 }
 
 body {
-    font-family: 'Playfair', sans-serif;
-    min-height: 100vh;
-    margin: 0; 
+    font-family: 'Playfair Display', sans-serif;
+
+    min-height: 100vh; /* Минимальная высота не может быть меньше высоты страницы */
+    margin: 0;
     padding: 0;
 
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: column; /* Flex по вертикали */
+    justify-content: space-between; /* Элементы внутри блока (header, main, footer) располагаются на макс. расстоянии друг от друга */
 }
 
 .header {
-    border: 1px solid red;
+    background-color: #252525;
 }
 
 .main {
-    border: 1px solid green;
+    color: #252525;
 }
 
 .footer {
-    border: 1px solid blue;
+    border: 1px solid #252525;
 }
+
 
 .container {
     max-width: 1440px;
     margin: 0 auto;
 }
 
+
 .nav-list {
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    list-style: none;
+    justify-content: flex-end; /* Flex сдвиг вправо */
+    align-items: center; /* Выравнивание по центру по высоте */
+
+    list-style: none; /* Убирает стандартные маркеры */
 }
 
 .nav-link {
-    padding: 0 20px;
-    line-height: 50px;
+    padding: 0px 15px; /* Отступы между элементами */
+    line-height: 50px; /* Высота элемента */
+
     text-decoration-line: none;
-    color: red;
-    transition: .3s;
-  }
+    color: #ffff00;
+    font-size: 17px;
+    white-space: nowrap; /* Не переносить текст на другую строку */
+
+    transition: 1s; /* Скорость изменения при наведении */
+}
+
+.nav-link:hover /* Стиль при наведении на ссылку */
+{
+    color: #00ff00;
+    text-decoration-line: underline;
+}
+
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile {
+    display: flex;
+    width: 100%;
+}
+
+.profile-left {
+    background-color: #252525;
+    min-width: 240px;
+    width: 25%;
+    height: 100%;
+    text-align: center;
+}
+
+.profile-img {
+    max-width:100%;
+    width: 100%;
+}
+
+.profile-right {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; 
+    text-align: center;
+    width: 75%;
+}
+
+.profile-white {
+    height: 30%;
+}
+
+.profile-title {
+    background-color: #ffff00;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+
+.title {
+    letter-spacing: 10px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.subtitle {
+    letter-spacing: 4px;
+    font-size: 15px;
+    font-weight: 00;
+}
+
+.title-line {
+    border-bottom: 2px solid #252525;
+}
+
+.sections {
+    display: flex;
+}
+
+.section-left {
+    min-width: 240px;
+    width: 25%;
+    padding-left: 25px;
+    background-color: #252525;
+    color: #ffffff
+}
+
+.section-left-title {
+    border-bottom: 1px solid #ffff00;
+}
+
+.section-right {
+    width: 75%;
+    padding-left: 50px;
+}
+
+.section-right-title {
+    border-bottom: 1px solid #252525;
+}
+
+
+
+
+
+
