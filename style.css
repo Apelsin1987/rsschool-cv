@@ -52,7 +52,7 @@ body {
 
     text-decoration-line: none;
     color: #ffff00;
-    font-size: 17px;
+    font-size: 19px;
     white-space: nowrap; /* Не переносить текст на другую строку */
 
     transition: 1s; /* Скорость изменения при наведении */
@@ -77,7 +77,7 @@ body {
 
 .profile-left {
     background-color: #252525;
-    min-width: 240px;
+    min-width: 300px;
     width: 25%;
     height: 100%;
     text-align: center;
@@ -104,18 +104,19 @@ body {
     background-color: #ffff00;
     text-transform: uppercase;
     margin-left: 50px;
+    color: #252525;
 }
 
 .title {
     letter-spacing: 10px;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 900;
 }
 
 .subtitle {
     letter-spacing: 4px;
-    font-size: 15px;
-    font-weight: 00;
+    font-size: 25px;
+    font-weight: 500;
 }
 
 .title-line {
@@ -126,8 +127,12 @@ body {
     display: flex;
 }
 
+.section {
+    margin-bottom: 50px;
+}
+
 .section-left {
-    min-width: 240px;
+    min-width: 300px;
     width: 25%;
     padding-left: 25px;
     background-color: #252525;
@@ -135,7 +140,8 @@ body {
 }
 
 .section-left-title {
-    border-bottom: 1px solid #ffff00;
+    border-bottom: 3px solid #ffff00;
+    font-size: 27px;
 }
 
 .section-right {
@@ -144,7 +150,47 @@ body {
 }
 
 .section-right-title {
-    border-bottom: 1px solid #252525;
+    border-bottom: 3px solid #252525;
+    font-size: 27px;
+}
+
+.section-list {
+    list-style-type: square;
+    font-size: 19px;
+}
+
+.section-sublist {
+    list-style-type: disc;
+}
+
+.section-subtitle {
+    font-size: 22px;
+}
+
+.section-years {
+    min-width: 170px;
+}
+
+p {
+    font-size: 22px;
+}
+
+a {
+    text-decoration-line: none;
+    color: #ffff00;
+    
+    margin-left: 20px;
+    transition: 1s; /* Скорость изменения при наведении */
+}    
+
+a:hover /* Стиль при наведении на ссылку */
+{
+    color: #00ff00;
+    text-decoration-line: underline;
+}
+
+.span-italic {
+    font-style: italic;
 }
 
 
