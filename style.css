@@ -25,10 +25,11 @@ body {
 
 .main {
     color: #252525;
+    padding-bottom: 20px;
 }
 
 .footer {
-    border: 1px solid #252525;
+    background-color: #ffffff;
 }
 
 
@@ -52,7 +53,7 @@ body {
 
     text-decoration-line: none;
     color: #ffff00;
-    font-size: 19px;
+    font-size: 16px;
     white-space: nowrap; /* Не переносить текст на другую строку */
 
     transition: 1s; /* Скорость изменения при наведении */
@@ -69,6 +70,16 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
+
+.footer-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+    font-size: 30px;
+    align-items: center;
+}
+
 
 .profile {
     display: flex;
@@ -109,13 +120,13 @@ body {
 
 .title {
     letter-spacing: 10px;
-    font-size: 40px;
+    font-size: 34px;
     font-weight: 900;
 }
 
 .subtitle {
     letter-spacing: 4px;
-    font-size: 25px;
+    font-size: 17px;
     font-weight: 500;
 }
 
@@ -141,7 +152,7 @@ body {
 
 .section-left-title {
     border-bottom: 3px solid #ffff00;
-    font-size: 27px;
+    font-size: 24px;
 }
 
 .section-right {
@@ -151,7 +162,7 @@ body {
 
 .section-right-title {
     border-bottom: 3px solid #252525;
-    font-size: 27px;
+    font-size: 24px;
 }
 
 .section-list {
@@ -164,7 +175,7 @@ body {
 }
 
 .section-subtitle {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .section-years {
@@ -172,7 +183,7 @@ body {
 }
 
 p {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 a {
@@ -193,8 +204,12 @@ a:hover /* Стиль при наведении на ссылку */
     font-style: italic;
 }
 
+.svg-footer {
+    width: 150px;
+    height: 100px;
+}
 
-
-
-
-
+.text-footer {
+    color: #252525;
+    font-weight: 600;    
+}
