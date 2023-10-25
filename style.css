@@ -182,7 +182,7 @@ body {
     min-width: 170px;
 }
 
-p {
+p, pre {
     font-size: 20px;
 }
 
