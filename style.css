@@ -102,7 +102,7 @@ body {
 .profile-right {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column; 
+    flex-direction: column;
     text-align: center;
     width: 75%;
 }
@@ -189,10 +189,10 @@ p, pre {
 a {
     text-decoration-line: none;
     color: #ffff00;
-    
+
     margin-left: 20px;
     transition: 1s; /* Скорость изменения при наведении */
-}    
+}
 
 a:hover /* Стиль при наведении на ссылку */
 {
@@ -211,5 +211,5 @@ a:hover /* Стиль при наведении на ссылку */
 
 .text-footer {
     color: #252525;
-    font-weight: 600;    
+    font-weight: 600;
 }
