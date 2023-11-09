@@ -42,7 +42,7 @@ companies: *Gazprom Mezhregiongaz, Audit NT, OCS*
 - [CV in rsschool](https://github.com/Apelsin1987/rsschool-cv)
 
 ## EDUCATION
-### Specialist, Engineer  
+### Specialist, Engineer
 **Taganrog Technological Institute of the Southern Federal University**
 > 2005 - 2010
 
