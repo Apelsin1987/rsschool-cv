@@ -186,7 +186,7 @@ p, pre {
     font-size: 20px;
 }
 
-a {
+.section-left a {
     text-decoration-line: none;
     color: #ffff00;
 
@@ -194,9 +194,24 @@ a {
     transition: 1s; /* Скорость изменения при наведении */
 }
 
-a:hover /* Стиль при наведении на ссылку */
+.section-left a:hover /* Стиль при наведении на ссылку */
 {
     color: #00ff00;
+    text-decoration-line: underline;
+}
+
+.section-right a {
+    text-decoration-line: none;
+    color: #000000;
+    font-weight: 700;
+
+    margin-left: 10px;
+    transition: 1s; /* Скорость изменения при наведении */
+}
+
+.section-right a:hover /* Стиль при наведении на ссылку */
+{
+    color: #00a000;
     text-decoration-line: underline;
 }
 

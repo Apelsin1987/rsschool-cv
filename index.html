@@ -66,21 +66,41 @@
                                     <li>EDT</li>
                                 </ul>
                             </li>
+                            <li>Frontend
+                                <ul class="section-sublist">
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JavaScript</li>
+                                    <li>TypeScript</li>
+                                </ul>
+                            </li>
+                            <li>Backend
+                                <ul class="section-sublist">
+                                    <li>NodeJS</li>
+                                </ul>
+                            </li>
+                            <li>VS Code</li>
                             <li>GIT</li>
+                            <li>GitHub</li>
                             <li>RabbitMQ</li>
                             <li>Azure DevOps</li>
                             <li>Jira</li>
                             <li>Confluence</li>
                         </ul>
+                        <a href="https://www.codewars.com/users/rsschool_1dd3582d24dde48f">
+                            <img src="https://www.codewars.com/users/rsschool_1dd3582d24dde48f/badges/small">
+                        </a>
                     </div>
                     <div class="section" id="projects">
                         <h2 class="section-left-title">PROJECTS</h2>
-                        <p><a href="https://github.com/Apelsin1987/rsschool-cv" title="CV" target="_blank">CV in rsschool</a></p>
+                        <p><a href="https://rolling-scopes-school.github.io/apelsin1987-JSFE2023Q4/coffee-house/" title="Coffee House" target="_blank">Coffee House</a></p>
+                        <p><a href="https://rolling-scopes-school.github.io/apelsin1987-JSFE2023Q4/hangman/" title="Hangman" target="_blank">"Hangman" game</a></p>
+                        <p><a href="https://rolling-scopes-school.github.io/apelsin1987-JSFE2023Q4/nonograms/" title="Nonograms" target="_blank">"Nonograms" game</a></p>
                     </div>
                     <div class="section" id="languages">
                         <h2 class="section-left-title">LANGUAGES</h2>
                         <ul class="section-list">
-                            <li>russian</li>
+                            <li>russian native</li>
                             <li>english A2</li>
                             <li>spanish A2</li>
                         </ul>
@@ -126,10 +146,70 @@
                     </div>
                     <div class="section" id="code">
                         <h2 class="section-right-title">CODE EXAMPLE</h2>
+                        <p>
+                            <a href="https://www.codewars.com/kata/531489f2bb244a5b9f00077e/javascript" title="CodeWars UndoRedo task" target="_blank">
+                                4kyu CodeWars task: Undo / Redo
+                            </a>
+                        </p>
                         <pre>
-function multiply(a, b){
-    return a * b
-}
+    function undoRedo(object) {
+        const copy = { ...object }
+            return {
+                set: function(key, value) {
+            copy.prevState = { ...copy };
+            delete copy['nextState'];
+            object[key] = value;
+            copy[key] = value;
+            },
+                get: function(key) {
+            return object[key];
+            },
+                del: function(key) {
+            copy.prevState = { ...copy };
+            delete copy['nextState'];
+            delete object[key];
+            delete copy[key];
+            },
+                undo: function() {
+            const deleteProperties = [];
+            Object.keys(copy).forEach((key) => {
+                if (!copy.prevState.hasOwnProperty(key)) deleteProperties.push(key);
+            });
+
+            copy.nextState = { ...copy };
+            delete copy.prevState.nextState;
+            Object.assign(object, copy.prevState);
+            Object.assign(copy, copy.prevState);
+
+            deleteProperties.forEach((key) => {
+                delete object[key];
+                if (key !== 'nextState') {
+                delete copy[key];
+                }
+            });
+
+            delete object.nextState;
+            delete object.prevState;
+            },
+                redo: function() {
+            const deleteProperties = [];
+            Object.keys(copy).forEach((key) => {
+                if (!copy.nextState.hasOwnProperty(key)) deleteProperties.push(key);
+            });
+
+            Object.assign(object, copy.nextState);
+            Object.assign(copy, copy.nextState);
+
+            deleteProperties.forEach((key) => {
+                delete object[key];
+                delete copy[key];
+            });
+            delete object.nextState;
+            delete object.prevState;
+            }, ...object
+        };
+
+    }
                         </pre>
                     </div>
                 </div>
@@ -138,9 +218,9 @@ function multiply(a, b){
     </main>
     <footer class="footer">
         <div class="container footer-container">
-            <a href="https://rs.school/js-stage0" class="text-footer" title="js-stage0" target="_blank"><img src="assets/svg/rs_school_js.svg" alt="rs_school" class="svg-footer"></a>
+            <a href="https://rs.school/courses/javascript-ru" class="text-footer" title="js-stage0" target="_blank"><img src="assets/svg/rs_school_js.svg" alt="rs_school" class="svg-footer"></a>
             <a href="https://github.com/Apelsin1987" class="text-footer" title="github" target="_blank"><div>Github</div></a>
-            <div class="text-footer">© 2023</div>
+            <div class="text-footer">© 2024</div>
         </div>
     </footer>
 </body>
