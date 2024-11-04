@@ -172,7 +172,7 @@
             },
                 undo: function() {
             const deleteProperties = [];
-            Object.keys(copy).forEach((key) => {
+            Object.keys(copy).forEach((key) =&gt; {
                 if (!copy.prevState.hasOwnProperty(key)) deleteProperties.push(key);
             });
 
@@ -181,7 +181,7 @@
             Object.assign(object, copy.prevState);
             Object.assign(copy, copy.prevState);
 
-            deleteProperties.forEach((key) => {
+            deleteProperties.forEach((key) =&gt; {
                 delete object[key];
                 if (key !== 'nextState') {
                 delete copy[key];
@@ -193,14 +193,14 @@
             },
                 redo: function() {
             const deleteProperties = [];
-            Object.keys(copy).forEach((key) => {
+            Object.keys(copy).forEach((key) =&gt; {
                 if (!copy.nextState.hasOwnProperty(key)) deleteProperties.push(key);
             });
 
             Object.assign(object, copy.nextState);
             Object.assign(copy, copy.nextState);
 
-            deleteProperties.forEach((key) => {
+            deleteProperties.forEach((key) =&gt; {
                 delete object[key];
                 delete copy[key];
             });
