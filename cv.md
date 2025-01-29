@@ -122,9 +122,11 @@ companies: _Gazprom Mezhregiongaz, Audit NT, OCS_
 **[Rolling Scope School](https://rs.school/)**
 
 - [Currículum Vitae](https://apelsin1987.github.io/rsschool-cv/)
-- [Coffee House](https://rolling-scopes-school.github.io/apelsin1987-JSFE2023Q4/coffee-house)
+- [Page "Coffee House"](https://rolling-scopes-school.github.io/apelsin1987-JSFE2023Q4/coffee-house)
+- [Page "Christmas Shop"](https://rolling-scopes-school.github.io/apelsin1987-JSFE2024Q4/christmas-shop/home.html)
 - [Game "Hangman"](https://rolling-scopes-school.github.io/apelsin1987-JSFE2023Q4/hangman)
 - [Game "Nonograms"](https://rolling-scopes-school.github.io/apelsin1987-JSFE2023Q4/nonograms)
+- [Game "Simon Says"](https://rolling-scopes-school.github.io/apelsin1987-JSFE2024Q4/simon-says/)
 
 ## EDUCATION
 
